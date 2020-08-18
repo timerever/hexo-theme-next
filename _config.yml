@@ -49,7 +49,7 @@ language_switcher: false
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  #since: 2015
+  since: 2017
 
   # Icon between year and copyright info.
   icon:
@@ -191,12 +191,14 @@ social_icons:
 # Blog rolls
 links_settings:
   icon: fa fa-globe
-  title: Links
+  title: 友链
   # Available values: block | inline
   layout: block
 
 links:
-  #Title: http://yoursite.com
+  YXAI: https://www.yxai123.cn/
+  swordandfire: https://blog.swordandfire.online/
+  Avalon: https://blog.exavalon.tk/
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
@@ -349,8 +351,8 @@ codeblock:
   # Code Highlight theme
   # All available themes: https://theme-next.js.org/highlight/
   theme:
-    light: default
-    dark: tomorrow-night
+    light: obsidian
+    dark: obsidian
   prism:
     light: prism
     dark: prism-dark
@@ -818,7 +820,7 @@ mermaid:
 # For more information: https://animate.style
 motion:
   enable: true
-  async: false
+  async: true
   transition:
     # All available transition variants: https://theme-next.js.org/animate/
     post_block: fadeIn
