@@ -117,14 +117,7 @@
           {{ partial('_partials/post/post-followme.njk', {}, {cache: theme.cache.enable}) }}
         {%- endif %}
 
-        {%- if post.tags and post.tags.length %}
-          {%- set tag_indicate = '<i class="fa fa-tag"></i>' if theme.tag_icon else '#' %}
-          <div class="post-tags">
-            {%- for tag in post.tags.toArray() %}
-              <a href="{{ url_for(tag.path) }}" rel="tag">{{ tag_indicate }} {{ tag.name }}</a>
-            {%- endfor %}
-          </div>
-        {%- endif %}
+        <br/>
 
         {{ partial('_partials/post/post-share.njk', {}, {cache: theme.cache.enable}) }}
 
